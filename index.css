@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("./happy.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.yes-fon {
+    /* background-image: url("./tort.jpg");
+    background-position: center;
+    background-repeat: no-repeat; */
+    background-image: url("");
+
+    background-color: white;
+}
+
+.no-fon {
+    background-image: url("./sad.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-color: white;
+}
+
+.happy {
+    width: 100%;
+    height: 69%;
+    background-image: url("./tort.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: none;
+}
+
+.container {
+    max-width: 1280px;
+    min-width: 300px;
+    margin: 0 auto;
+}
+
+h1 {
+    /* font-family: 'PT Serif', serif; */
+    font-family: 'Unbounded', cursive;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.yes {
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+.btns {
+    width: 160px;
+    margin: 40px auto;
+}
+
+.repeat {
+    display: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin: 40px auto;
+    font-size: 30px;
+    font-family: 'Rubik Gemstones', cursive;
+    background-color: #91FF8E;
+}
+
+.show {
+    display: block;
+}
+
+.hide {
+    display: none;
+}
+
