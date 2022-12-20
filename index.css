@@ -54,8 +54,6 @@ h1 {
 .yes {
     padding: 10px 20px;
     border-radius: 20px;
-    background-color: #91FF8E;
-    border-color: coral;
 }
 
 .btns {
@@ -68,7 +66,7 @@ h1 {
 }
 
 .no {
-    font-family: 'PT Serif', serif;
+    border-radius: 0;
 }
 
 .repeat {
