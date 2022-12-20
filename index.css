@@ -61,6 +61,10 @@ h1 {
     margin: 40px auto;
 }
 
+.f-s-21 {
+    font-size: 21px;
+}
+
 .repeat {
     display: none;
     padding: 10px 20px;

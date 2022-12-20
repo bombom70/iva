@@ -15,6 +15,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     btnYes.addEventListener('click', () => {
         h1.textContent = text["yes"];
+        h1.classList.add("f-s-21");
         body.classList.add('yes-fon');
         happyImg.classList.add("show");
         btns.classList.add("hide");
@@ -35,7 +36,7 @@ document.addEventListener("DOMContentLoaded", () => {
         repeatBtn.classList.remove('show');
         h1.textContent = text["default"];
         happyImg.classList.remove("show");
-
+        h1.classList.remove("f-s-21");
     });
 
 });
