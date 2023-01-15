@@ -11,6 +11,25 @@ main {
     background-repeat: no-repeat;
 }
 
+body {
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 30px;
+    background-image: url("./heart.svg"), url("./heart 1.svg");
+    /* background-position: center; */
+    /* background-size: cover; */
+    background-repeat: no-repeat;
+
+    animation: snow 33s linear infinite;
+}
+
+@keyframes snow {
+    100% {
+        background-position: 0px 1000px;
+    }
+}
+
 
 .yes-fon {
     /* background-image: url("./tort.jpg");
