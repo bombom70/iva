@@ -39,4 +39,8 @@ document.addEventListener("DOMContentLoaded", () => {
         h1.classList.remove("f-s-21");
     });
 
+    function HHEE() {
+        console.log("QWE");
+    }
+
 });
